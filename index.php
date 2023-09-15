@@ -5,7 +5,6 @@
 </head>
 <body>
 <?php include("assets/includes/navbar.php")?>
-<p>HOLA A TODOS, YO SOY EL LEON</p>
     <header class="container-fluid g-0">
     <div id="carouselExampleCaptions" class="carousel slide">
   <div class="carousel-indicators">
