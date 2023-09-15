@@ -59,7 +59,6 @@
         </div>
       </div>
     </div>
-    
     <div class="container-fluid p-3">
       <div class="container-fluid shadow-sm">
         <div class="row">
