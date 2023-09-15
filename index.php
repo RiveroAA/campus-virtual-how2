@@ -5,7 +5,7 @@
 </head>
 <body>
 <?php include("assets/includes/navbar.php")?>
-
+<p>holi</p>
     <header class="container-fluid g-0">
     <div id="carouselExampleCaptions" class="carousel slide">
   <div class="carousel-indicators">
