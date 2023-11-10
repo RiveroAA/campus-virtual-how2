@@ -35,19 +35,14 @@ session_start();
 
 									<div class="col-3">
 										<li class="nav-item">
-											<a class="nav-link" href="../../">Inicio</a>
+											<a class="nav-link" href="index.php">Inicio</a>
 										</li>
 									</div>
 									<div class="col-3">
 										<li class="nav-item">
-											<a class="nav-link" href="#">Materias</a>
+											<a class="nav-link" href="clases.php">Clases</a>
 										</li>
 									</div>
-									<!-- <div class="col-3">
-										<li class="nav-item">
-											<a class="nav-link" href="#">Menu</a>
-										</li>
-									</div> -->
 									<div class="col-3">
 										<li class="nav-item">
 											<a class="nav-link" href="#">Contacto</a>
