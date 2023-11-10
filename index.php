@@ -23,7 +23,15 @@
           <div class="carousel-caption d-none d-md-block">
             <h5 class="h2">How2 - Conectar con el aprendizaje</h5>
             <p><b>Te acompañamos en tu proceso.</b></p>
-            <button class="btn btn-info">Empezar</button>
+            <button class="btn btn-info" onclick="redireccionar()">Empezar</button>
+
+<script>
+    // Función JavaScript para redireccionar
+    function redireccionar() {
+        // Cambia la ubicación a la página a la que deseas redirigir
+        window.location.href = "assets/auth/signup.html";
+    }
+</script>
           </div>
         </div>
         <div class="carousel-item bg-dark bg-gradient">
