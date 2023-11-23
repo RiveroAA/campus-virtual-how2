@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php include("assets/includes/navbar.php") ?>
+    
     <div class="container mt-5">
         <h2>Deja un Comentario</h2>
         <form id="comentarioForm" action="guardar_comentario.php" method="POST">
