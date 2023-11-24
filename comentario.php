@@ -8,6 +8,16 @@
 </head>
 <body>
     <?php include("assets/includes/navbar.php") ?>
+    <br>
+    <button onclick="goBack()" class="btn btn-danger">Volver</button>
+
+    <script>
+        function goBack() {
+          window.history.back();
+        }
+    </script>
+    <br>
+    <br>
     
     <div class="container mt-5">
         <h2>Deja un Comentario</h2>

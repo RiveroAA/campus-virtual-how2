@@ -16,6 +16,16 @@
 
 <!--Conecta con navbar.php donde esta la barra de navegacion-->
 <?php include("assets/includes/navbar.php") ?>
+<br>
+<button onclick="goBack()" class="btn btn-danger">Volver</button>
+
+    <script>
+        function goBack() {
+          window.history.back();
+        }
+    </script>
+    <br>
+    <br>
 
   <div class="container mt-5">
     <div class="row">

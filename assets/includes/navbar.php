@@ -84,7 +84,7 @@ session_start();
                             <!-- Nombre de usuario -->
                             <h4>Usuario</h4>
                             <!-- Enlace para ver el perfil -->
-                            <a href="#">Ver perfil</a>
+                            <a href="https://pbs.twimg.com/media/FLsV9fWXoAU6zfQ.jpg:large">Ver perfil</a>
                         </div>
                     </div>
                     <hr>

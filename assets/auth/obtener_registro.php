@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit(); // Finalizar la ejecución del script
     } elseif ($profesor_result->num_rows > 0) {
         // Redirigir a esqueleto.html si es un profesor
-        header("Location: ..\..\comentario.php");
+        header("Location: ..\..\clase_profesor.php");;
         exit(); // Finalizar la ejecución del script
     } else {
         echo "Correo o contraseña incorrectos"; // Mensaje si no se encuentra en ninguna tabla
