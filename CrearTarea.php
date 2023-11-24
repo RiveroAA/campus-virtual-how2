@@ -13,7 +13,10 @@
   </style>
 </head>
 <body>
+
+<!--Conecta con navbar.php donde esta la barra de navegacion-->
 <?php include("assets/includes/navbar.php") ?>
+
   <div class="container mt-5">
     <div class="row">
       <div class="col-md-8 offset-md-2">

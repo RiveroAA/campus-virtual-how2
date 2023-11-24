@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<title>Inicia Sesion</title>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" href="../css/styles.css">
-	</head>
-	<body main id="hero">
-	<div class="capa"></div>
-		</main>
-	
-		<br>
-		<br>
-		<div class="login">
-			<br>
-			<h2><u>¡Bienvenido a How2!</u></h2>
-			<form action="..\..\clases.php" method="post">
-			<br>
-			<br>
-			<p><b><em>¡Inicie Sesion!</em></b></p>
-			<input type="text" placeholder="Correo Electronico" name="correo">
-			<input type="password" placeholder="Contraseña" minlength="8" name="contrasena">
-			<input type="password" placeholder="Confirmar contraseña" name="contrasena2"> <br> <br>
-			<div class="botonylink">
-			<div class="boton">
-			<input type="submit" value="Iniciar Sesion" class="botonsubmit"><br>
-			<span class="iniciarsesion" style="font-size: 15px;"> <a href="signup.html">Crear Cuenta</a></span>
-			</div>
-			<br>
-			</div>
-			</form>
-		</div>
-	</body>
+<head>
+    <title>Inicia Sesión</title>
+    <meta charset="UTF-8">
+	<!-- Importa un archivo de estilos externo -->
+    <link rel="stylesheet" href="../css/styles.css"> 
+</head>
+<body main id="hero">
+	 <!-- Capa de fondo (probablemente se usa para efectos visuales) -->
+    <div class="capa"></div>
+    </main>
+    <br>
+    <br>
+    <div class="login">
+        <br>
+        <h2><u>¡Bienvenido a How2!</u></h2> <!-- Título de bienvenida -->
+        <form action="..\..\clases.php" method="post"> <!-- Formulario de inicio de sesión -->
+            <br>
+            <br> 
+			<!-- Mensaje de inicio de sesión -->
+            <p><b><em>¡Inicie Sesión!</em></b></p>
+			 <!-- Campo para ingresar correo -->
+            <input type="text" placeholder="Correo Electrónico" name="correo">
+			<!-- Campo para ingresar contraseña -->
+            <input type="password" placeholder="Contraseña" minlength="8" name="contrasena"> 
+			 <!-- Campo para confirmar la contraseña -->
+            <input type="password" placeholder="Confirmar contraseña" name="contrasena2"> <br> <br>
+            <div class="botonylink">
+                <div class="boton">
+					 <!-- Botón para iniciar sesión -->
+                    <input type="submit" value="Iniciar Sesión" class="botonsubmit"><br>
+					<!-- Enlace para crear una cuenta -->
+                    <span class="iniciarsesion" style="font-size: 15px;"> <a href="signup.html">Crear Cuenta</a></span> 
+                </div>
+                <br>
+            </div>
+        </form>
+    </div>
+</body>
 </html>

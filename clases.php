@@ -6,22 +6,25 @@
     <title>Clases - How2</title>
 </head>
 <body>
-<?php include("assets/includes/navbar.php") ?>
+    <!-- Inclusión del encabezado (navbar) desde un archivo PHP -->
+    <?php include("assets/includes/navbar.php") ?>
 
     <!-- Contenido principal -->
     <div class="container mt-5">
         <h1>Mis Clases</h1>
+        <!-- Primer elemento de tarjeta (card) -->
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title">Clase de Matemáticas</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis eu nunc accumsan viverra.</p>
+                <p class="card-text">Breve Descripcion.</p>
                 <a href="#" class="btn btn-primary">Ir a la Clase</a>
             </div>
         </div>
+        <!-- Segundo elemento de tarjeta (card) -->
         <div class="card mt-3">
             <div class="card-body">
                 <h5 class="card-title">Clase de Historia</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis eu nunc accumsan viverra.</p>
+                <p class="card-text">Breve Descripcion.</p>
                 <a href="#" class="btn btn-primary">Ir a la Clase</a>
             </div>
         </div>

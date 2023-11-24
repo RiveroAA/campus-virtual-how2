@@ -3,37 +3,42 @@
 	<head>
 		<title>Registrarse</title>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="../css/styles.css">
+		<!-- Enlace a una hoja de estilos -->
+		<link rel="stylesheet" href="../css/styles.css"> 
 	</head>
 	<body main id="hero">
-	<div class="capa"></div>
-		</main>
-		<br>
-		<br>
+		<!-- Elemento de capa, posiblemente para superposiciones visuales -->
+		<div class="capa"></div> 
+
+		<!-- Formulario de registro -->
 		<div class="login">
-			<br>
-			<h2><u>¡Bienvenido a How2!</u></h2>
-			<form action="" method="get">
-			<br>
-			<p><b><em>¿De que forma le gustaria ingresar?</em></b></p>
-			<input type="checkbox" name="alumno"> Alumno
-			<br>
-			<input type="checkbox" name="docente"> Docente
-			<br>
-			<br>
-			<p><b><em>Registrarse</em></b></p>
-			<input type="text" placeholder="Correo Electronico" name="correo">
-			<input type="password" placeholder="Contraseña" minlength="8" name="contrasena">
-			<input type="password" placeholder="Confirmar contraseña" name="contrasena2"> <br> <br>
-			<div class="botonylink">
-			<div class="boton">
-			<input type="submit" value="Crear cuenta" class="botonsubmit">
-			</div>
-			<br>
-			<div class="link">
-			<span class="iniciarsesion" style="font-size: 15px;">¿Ya tiene una cuenta? <a href="login.html">Inicie sesion!</a></span>
-			</div>
-			</div>
+			<h2><u>¡Bienvenido a How2!</u></h2> <!-- Título de bienvenida -->
+			<form action="" method="get"> <!-- Formulario con método GET -->
+				<p><b><em>¿De qué forma le gustaría ingresar?</em></b></p>
+				<!-- Selección de tipo de usuario con checkboxes -->
+				<input type="checkbox" name="alumno"> Alumno
+				<br>
+				<input type="checkbox" name="docente"> Docente
+				<br>
+				<br>
+				<p><b><em>Registrarse</em></b></p>
+				<!-- Campos de correo electrónico y contraseña para registro -->
+				<input type="text" placeholder="Correo Electrónico" name="correo">
+				<input type="password" placeholder="Contraseña" minlength="8" name="contrasena">
+				<input type="password" placeholder="Confirmar contraseña" name="contrasena2">
+				<br>
+				<br>
+				<div class="botonylink">
+					<!-- Botón para enviar el formulario -->
+					<div class="boton">
+						<input type="submit" value="Crear cuenta" class="botonsubmit">
+					</div>
+					<br>
+					<div class="link">
+						<!-- Enlace para iniciar sesión si ya tiene una cuenta -->
+						<span class="iniciarsesion" style="font-size: 15px;">¿Ya tiene una cuenta? <a href="login.html">¡Inicie sesión!</a></span>
+					</div>
+				</div>
 			</form>
 		</div>
 	</body>

@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
      <head>
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>How2 - Iniciar sesión</title>
+          <!-- Título de la página -->
+          <title>How2 - Iniciar sesión</title> 
      </head>
-<?php include("../includes/navbar.php");?>
+     <!-- Inclusión de un archivo PHP para la barra de navegación -->
+     <?php include("../includes/navbar.php");?> 
      <body>
-          <p class="btn">ACA VA EL LOGIN MEZCLANDO PHP Y HTML</p>
+          <!-- Párrafo con clase "btn" -->
+          <p class="btn">ACA VA EL LOGIN MEZCLANDO PHP Y HTML</p> 
      </body>
-
 </html>
 <?php
-include("../php/libraries/connect.php");
-$connect = new Conexion();
+// Inclusión del archivo PHP para conexión a la base de datos
+include("../php/libraries/connect.php"); 
+// Creación de una instancia de conexión
+$connect = new Conexion(); 
+// Consulta SQL para obtener datos de la tabla 'cursos'
 $sql = "SELECT * FROM cursos";
-if(mysqli_query($connect->connectBd(), $sql)){
-     echo "Funca piola";
+// Verificación de la ejecución de la consulta
+if(mysqli_query($connect->connectBd(), $sql)){ 
+     // Mensaje si la consulta se ejecutó correctamente
+     echo "Funca piola"; 
 } else {
-     echo "no funca" . mysqli_connect_error();
+     // Mensaje si hay algún error en la conexión o consulta
+     echo "no funca" . mysqli_connect_error(); 
 }
 ?>
