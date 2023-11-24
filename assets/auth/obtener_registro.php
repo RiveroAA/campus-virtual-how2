@@ -29,11 +29,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Verificar si el correo y contraseña corresponden a un alumno
     if ($alumno_result->num_rows > 0) {
         // Redirigir a clases.html si es un alumno
-        header("Location: clases.html");
+        header("Location: ..\..\comentario.php");
         exit(); // Finalizar la ejecución del script
     } elseif ($profesor_result->num_rows > 0) {
         // Redirigir a esqueleto.html si es un profesor
-        header("Location: esqueleto.html");
+        header("Location: ..\..\comentario.php");
         exit(); // Finalizar la ejecución del script
     } else {
         echo "Correo o contraseña incorrectos"; // Mensaje si no se encuentra en ninguna tabla
