@@ -57,7 +57,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Ver Tareas</h5>
                     <p class="card-text">visualizar las tareas.</p><br>
-                    <a href="#tareas" class="btn btn-primary">Ver</a>
+                    <a href="tareas_profesor.php" class="btn btn-primary">Ver</a>
                 </div>
             </div>
         </div>
