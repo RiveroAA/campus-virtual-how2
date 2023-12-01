@@ -1,8 +1,12 @@
-•---------------------------------------------•
-|        ✍🏽 CAMPUS VIRTUAL HOW2 📋           |
-•---------------------------------------------•
+# Campus Virtual How2
+## Conectar con el aprendizaje
 
-📚 Este es el repositorio de Github del 
-proyecto del Campus Virtual llamado How2, para
-el control de versiones y organización del
-desarrollo.
+![Portada del repositorio](assets/images/Portada.jpg)
+
+📚 Bienvenido al repositorio de Github del proyecto **Campus Virtual llamado How2**. Este espacio está dedicado al control de versiones y la organización del desarrollo.
+
+Contacto
+Si tienes preguntas o comentarios, no dudes en ponerte en contacto con nosotros.
+ejemplo@how2.com
+
+•---------------------------------------------•
