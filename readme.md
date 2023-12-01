@@ -8,5 +8,3 @@
 Contacto
 Si tienes preguntas o comentarios, no dudes en ponerte en contacto con nosotros.
 ejemplo@how2.com
-
-•---------------------------------------------•
