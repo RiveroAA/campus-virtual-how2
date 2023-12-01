@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Campus Virtual" company="" webLink="http://" view-date="2023-09-25" view-index="0" gantt-divider-location="483" resource-divider-location="330" version="3.2.3230" locale="es_ES">
+    <description>
+        <![CDATA[El proyecto cos¿nsiste en desarrollar un campus virtual que tendra varias funcionalidades, y hostearlo en un servidor]]>
+    </description>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="327" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="69" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="71" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <timeline>
+            <![CDATA[9,8,6,7,10]]>
+        </timeline>
+        <option id="color.recent">
+            <![CDATA[#ff9900 #2626b0 #ff00ff #339900 #006600 #00cc00 #ff0000 #544bc2]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="189" order="0"/>
+        <field id="1" name="Función" width="137" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="1" tue="1" wed="1" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="5" name="Campus Virtual" color="#006600" meeting="false" start="2023-04-21" duration="64" complete="0" thirdDate="2023-06-09" thirdDate-constraint="0" expand="true">
+            <task id="6" name="Etapa 1 - Exploracion" color="#00cc00" meeting="false" start="2023-04-21" duration="19" complete="0" thirdDate="2023-06-09" thirdDate-constraint="0" priority="2" expand="true">
+                <notes>
+                    <![CDATA[*En esta etapa se recoleta toda la información necesaria para comprobar la viabilidad del desarrollo del sistema, además de establecer qué recursos serán utilizados.]]>
+                </notes>
+                <depend id="7" type="2" difference="0" hardness="Strong"/>
+                <task id="11" name="Actividad 1 - Tecnologias" color="#ff9900" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2023-04-21" duration="3" complete="0" thirdDate="2023-04-20" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[Investigar en internet sobre las tecnologias que pueden formar parte del desarrollo del proyecto:
++ Lenguajes de programacion, sus requerimientos (CDNs), utilizacion y version
++ Aplicaciones o servicios que agilicen el trabajo
++ Variedad de IDEs y establecer uno para el desarrollo del sistema
++ Programas para la realizacion de diagramas (diagrama de flujo, clases, base de datos, caso de uso, etc)]]>
+                    </notes>
+                </task>
+                <task id="12" name="Actividad 2 - Servidor" color="#ff9900" meeting="false" start="2023-05-04" duration="4" complete="0" thirdDate="2023-04-20" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[+ Investigar via web sobre las especificaciones tecnicas que deberia tener el servidor en el que se alojara el campus.
++ Agendar una entrevista con el personal de la tecnica 4, para averiguar las especificaciones del servidor de la misma y sobre su disponibilidad, y verificar que cumpla con los requisitos antes propuestos.
++ En caso de que no cumpla con los requisitos, averiguar via web algun proveedor de hosting que si los cumpla.]]>
+                    </notes>
+                </task>
+                <task id="13" name="Actividad 3 - Chat" color="#ff9900" meeting="false" start="2023-05-18" duration="3" complete="0" thirdDate="2023-04-06" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[+ Investigar como implementar un chat cuya actualizacion sea constante, de manera que notifique en tiempo real sobre nuevos mensajes.]]>
+                    </notes>
+                </task>
+                <task id="14" name="Actividad 3 - Biblioteca" color="#ff9900" meeting="false" start="2023-05-26" duration="2" complete="0" thirdDate="2023-04-06" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[+ Investigar como implementar una biblioteca en la que almacenar archivos multimedia en general, como PDF, audios, videos, fotos, etc
+como espacio para la publicacion de materiales para la clase.]]>
+                    </notes>
+                </task>
+                <task id="15" name="Actividad 4 - Diagramas" color="#ff9900" meeting="false" start="2023-06-02" duration="7" complete="0" thirdDate="2023-04-06" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[+ Realizar los siguientes diagramas:
+-Diagrama de caso de uso
+-Diagrama de base de datos
+-Diagrama de flujo de datos
+-Diagrama de clases]]>
+                    </notes>
+                </task>
+            </task>
+            <task id="7" name="Etapa 2 - Planeacion" color="#00cc00" meeting="false" start="2023-06-29" duration="4" complete="0" thirdDate="2023-06-09" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[*En esta etapa, con toda la información encontrada en la exploración, se decide cómo se procederá: equipo de trabajo, división de tareas, etc.]]>
+                </notes>
+                <depend id="8" type="2" difference="0" hardness="Strong"/>
+                <task id="16" name="Actividad 1 - Equipo de trabajo" color="#ff9900" meeting="false" start="2023-06-29" duration="4" complete="0" thirdDate="2023-03-02" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[+ Dividir las actividades que se van a ejecutar en las siguientes etapas, de manera que se reparta el trabajo agrupado en roles segun la cantidad de integrantes.
++ Armar el equipo de trabajo, designando a cada integrante un rol en el desarrollo del sistema, en pro de aprovechar sus habilidades y virtudes al maximo.]]>
+                    </notes>
+                </task>
+            </task>
+            <task id="8" name="Etapa 3 - Iteraciones para la primera version" color="#00cc00" meeting="false" start="2023-07-13" duration="36" complete="0" thirdDate="2023-06-16" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[*Esta etapa se ejecutara sin hostear el proyecto en ningun servidor.]]>
+                </notes>
+                <depend id="9" type="2" difference="0" hardness="Strong"/>
+                <task id="17" name="Iteracion 1 - Esqueleto e interfaz del sistema" color="#2626b0" meeting="false" start="2023-07-13" duration="34" complete="0" thirdDate="2023-03-02" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[+ Diseñar el mapa del sitio, estableciendo la conexion entre los distintos apartados,  proveyendo accesibilidad y rapidez en la utilizacion del sitio.
++ Diseñar los estilos generales del sitio, haciendolo adaptable a pantallas HD, laptop, tablets o moviles.
++ Evitar discrepancias entre el desarrollo y el diseño propuesto. En caso de haber diferencias, rediseñar el estilo o interfaz si fuere necesario.
++ Crear la base de datos en base al diagrama antes propuesto.
++ Desarrollar el esqueleto del sitio, archivos y carpetas, y conectarlos entre si coordinandose con el diseño que proponga el diseñador.
+En general, solo se propone la estructura del sitio. Mas adelante se lo proveera de funcionalidades.]]>
+                    </notes>
+                </task>
+                <task id="18" name="Iteracion 2 - Sistema de autenticación" color="#2626b0" meeting="false" start="2023-11-03" duration="3" complete="0" thirdDate="2023-03-02" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[Una vez creada la base de datos y la estructura del sitio:
++ Desarrollar el apartado de inicio de sesion y las funcionalidades generales de los usuarios (iniciar y cerrar sesion, eliminar cuenta, ver perfil y datos).
++ Establecer diferencias en las acciones posibles para el usuario docente, usuario alumno y usuario administrador.]]>
+                    </notes>
+                </task>
+                <task id="29" name="Iteracion 3 - Sistema de entregas" color="#2626b0" meeting="false" start="2023-11-03" duration="3" complete="0" thirdDate="2023-07-13" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[+ Desarrollar la interfaz para que el usuario docente pueda añadir actividades.
++ Añadir la posibilidad al usuario alumno de poder ver las tareas y entregarlas una vez hechas.]]>
+                    </notes>
+                </task>
+                <task id="19" name="Iteracion 4 - Implementacion del chat" color="#2626b0" meeting="false" start="2023-11-03" duration="3" complete="0" thirdDate="2023-03-02" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[+ Desarrollar el sistema de chat, de manera que se actualice constantemente. Es decir, cuando se reciba un mensaje, el sitio debe actualizarse para mostrar el mensaje en tiempo real.]]>
+                    </notes>
+                </task>
+            </task>
+            <task id="9" name="Etapa 4 - Puesta en produccion" color="#00cc00" meeting="false" start="2023-11-16" duration="3" complete="0" thirdDate="2023-03-02" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[*En esta etapa, el sistema ya podra ser alojado en un servidor.]]>
+                </notes>
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+                <task id="24" name="Iteracion 1 - Biblioteca" color="#2626b0" meeting="false" start="2023-11-16" duration="3" complete="0" thirdDate="2023-08-24" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[+ Agregar un apartado de biblioteca, que será como un gestor de archivos, en el que los docentes puedan subir material multimedia didáctico y los alumnos puedan verlo.]]>
+                    </notes>
+                </task>
+                <task id="25" name="Iteracion 2 - Notificaciones y calendario" color="#2626b0" meeting="false" start="2023-11-16" duration="3" complete="0" thirdDate="2023-08-24" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[+ Implementar un sistema de notificaciones en tiempo real, en el mismo sitio, así como por correo electrónico.
++ Añadir la funcionalidad de establecer fechas importantes para un calendario, para organizar por ejemplo las fechas límite para entregas u otros eventos importantes.]]>
+                    </notes>
+                </task>
+                <task id="26" name="Iteracion 3 - Herramientas del docente" color="#2626b0" meeting="false" start="2023-11-16" duration="3" complete="0" thirdDate="2023-08-24" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[+ Implementar funcionalidades que permitan modalidades nuevas para proponer actividades y calificar.
++ Añadir una sección en donde el docente pueda ver estadísticas relacionadas con el progreso de cada alumno: presentismo, historial de calificaciones, proyectos asignados, etc.]]>
+                    </notes>
+                </task>
+            </task>
+            <task id="10" name="Etapa 5 - Mantenimiento" color="#00cc00" meeting="false" start="2023-11-24" duration="2" complete="0" thirdDate="2023-03-02" thirdDate-constraint="0" expand="true">
+                <task id="32" name="Actividad 1 - Corrección de errores y bugs" color="#ff9900" meeting="false" start="2023-11-24" duration="2" complete="0" thirdDate="2023-11-16" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[+ En esta última etapa, con el sistema funcionando en un ambiente de producción, realizar el mantenimiento del mismo en busca de la corrección de bugs y los errores que puedan surgir.]]>
+                    </notes>
+                </task>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="" function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="1" name="" function="SoftwareDevelopment:3" contacts="" phone=""/>
+        <resource id="2" name="" function="SoftwareDevelopment:9" contacts="" phone=""/>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
