@@ -24,7 +24,7 @@
       <!-- Imágenes y contenido del carrusel -->
       <div class="carousel-inner">
         <div class="carousel-item active bg-dark bg-gradient">
-          <img src="assets/images/HomeSlideOne.jpg" class="d-block w-100" alt="..." style="opacity: 0.5">
+          <img src="assets/images/HeaderSlide1.jpg" class="d-block w-100" alt="..." style="opacity: 0.5">
           <div class="carousel-caption d-none d-md-block">
             <h5 class="h2">How2 - Conectar con el aprendizaje</h5>
             <p><b>Te acompañamos en tu proceso.</b></p>
@@ -40,7 +40,7 @@
           </div>
         </div>
         <div class="carousel-item bg-dark bg-gradient">
-          <img src="assets/images/HomeSlideTwo.jpg" class="d-block w-100" alt="..." style="opacity: 0.5">
+          <img src="assets/images/HeaderSlide2.jpg" class="d-block w-100" alt="..." style="opacity: 0.5">
           <div class="carousel-caption d-none d-md-block">
             <h5 class="h2">How2 - Estudiar sin límites</h5>
             <p><b>Conocé más acerca de How2 para alumnos.</b></p>
@@ -48,7 +48,7 @@
           </div>
         </div>
         <div class="carousel-item bg-dark bg-gradient">
-          <img src="assets/images/HomeSlideThree.jpg" class="d-block w-100" alt="..." style="opacity: 0.5">
+          <img src="assets/images/HeaderSlide3.jpg" class="d-block w-100" alt="..." style="opacity: 0.5">
           <div class="carousel-caption d-none d-md-block">
             <h5 class="h2">How2 - Conectá con el aprendizaje</h5>
             <p><b>Conocé más acerca de How2 para docentes.</b></p>
